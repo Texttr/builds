@@ -1,0 +1,9 @@
+Build for linux:
+
+Build for windows:
+cd texttr-frontend
+npm run tauri build
+File localted in: texttr-frontend/src-tauri/target/release
+Installer file localted in: texttr-frontend/src-tauri/target/release/bundle/msi
+
+Build for macos:

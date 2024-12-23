@@ -1,0 +1,18 @@
+Build for linux:
+set GOOS=linux
+set GOARCH=amd64
+go build -o backend
+
+Build for windows:
+set GOOS=windows
+set GOARCH=amd64
+go build -o backend.exe
+
+Build for macos:
+set GOOS=darwin
+set GOARCH=amd64
+go build -o backend
+
+Clear Variables after building:
+set GOOS=
+set GOARCH=
